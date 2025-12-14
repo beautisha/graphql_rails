@@ -1,0 +1,32 @@
+default: &default
+  host: localhost
+  adapter: postgresql
+  encoding: UTF8
+  timeout: 5000
+  reaping_frequency: 30
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+
+development:
+  <<: *default
+  database: graphql_rails_dev
+  username: <%= Rails.application.credentials.dig(:database, :development, :user_name) %>
+  password: <%= Rails.application.credentials.dig(:database, :development, :password) %>
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  <<: *default
+  database: graphql_rails_test
+  username: <%= Rails.application.credentials.dig(:database, :test, :user_name) %>
+  password: <%= Rails.application.credentials.dig(:database, :test, :password) %>
+
+
+production:
+  <<: *default
+  database: graphql_rails_prod
+  username: <%= Rails.application.credentials.dig(:database, :production, :user_name) %>
+  password: <%= Rails.application.credentials.dig(:database, :production, :password) %>
