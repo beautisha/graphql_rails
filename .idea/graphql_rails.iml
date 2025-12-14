@@ -64,6 +64,7 @@
     <orderEntry type="library" scope="PROVIDED" name="fiber-storage (v1.0.1, ruby-3.4.7-p58) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fugit (v1.12.1, ruby-3.4.7-p58) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v1.3.0, ruby-3.4.7-p58) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="graphiql-rails (v1.10.5, ruby-3.4.7-p58) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="graphql (v2.5.16, ruby-3.4.7-p58) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.14.7, ruby-3.4.7-p58) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="image_processing (v1.14.0, ruby-3.4.7-p58) [gem]" level="application" />
@@ -125,6 +126,8 @@
     <orderEntry type="library" scope="PROVIDED" name="solid_cable (v3.0.12, ruby-3.4.7-p58) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="solid_cache (v1.0.10, ruby-3.4.7-p58) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="solid_queue (v1.2.4, ruby-3.4.7-p58) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sprockets (v4.2.2, ruby-3.4.7-p58) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.5.2, ruby-3.4.7-p58) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v2.8.1, ruby-3.4.7-p58) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sshkit (v1.25.0, ruby-3.4.7-p58) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="stringio (v3.1.9, ruby-3.4.7-p58) [gem]" level="application" />
