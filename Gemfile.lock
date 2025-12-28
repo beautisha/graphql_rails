@@ -296,8 +296,8 @@ GEM
       actionpack (>= 6.1)
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
-    sqlite3 (2.8.1-x64-mingw-ucrt)
-    sqlite3 (2.8.1-x86_64-linux-gnu)
+    sqlite3 (2.9.0-x64-mingw-ucrt)
+    sqlite3 (2.9.0-x86_64-linux-gnu)
     sshkit (1.25.0)
       base64
       logger
@@ -454,8 +454,8 @@ CHECKSUMS
   solid_queue (1.2.4) sha256=bb60f9552a969ac377d87601b0ff6a088f5e6f20b0cbbe3844a59d022cac0e4b
   sprockets (4.2.2) sha256=761e5a49f1c288704763f73139763564c845a8f856d52fba013458f8af1b59b1
   sprockets-rails (3.5.2) sha256=a9e88e6ce9f8c912d349aa5401509165ec42326baf9e942a85de4b76dbc4119e
-  sqlite3 (2.8.1-x64-mingw-ucrt) sha256=f3cd0f188c156f54787ced89b1875873537b3d4cf26e9af042dcba883799f53a
-  sqlite3 (2.8.1-x86_64-linux-gnu) sha256=878f4a0c5c2c4d9d4345afe2a142a87805f388a24aa8a3c2dfe2f964d7686b7a
+  sqlite3 (2.9.0-x64-mingw-ucrt) sha256=677333ebf8f496f7ffe89bf1e5f8c5331ffe83249228cb262cd896ce8d383da6
+  sqlite3 (2.9.0-x86_64-linux-gnu) sha256=72fff9bd750070ba3af695511ba5f0e0a2d8a9206f84869640b3e99dfaf3d5a5
   sshkit (1.25.0) sha256=c8c6543cdb60f91f1d277306d585dd11b6a064cb44eab0972827e4311ff96744
   stringio (3.1.9) sha256=c111af13d3a73eab96a3bc2655ecf93788d13d28cb8e25c1dcbff89ace885121
   thor (1.4.0) sha256=8763e822ccb0f1d7bee88cde131b19a65606657b847cc7b7b4b82e772bcd8a3d
